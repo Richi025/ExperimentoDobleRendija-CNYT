@@ -25,14 +25,15 @@ Para llevar a cabo las simulaciones, empleamos un enfoque basado en un modelo ma
 
 ### Coeficientes Reales.
 
-Doble Rendija con coegicientes reales, los nodos intermedios actúan como rendijas y se tiene la misma resticcion de que al final de cada nodo apunta hacía si mismo suponiendo un ciclo con aristas de valor 1. Para generar un sistema doblemente estocástico.
-![realesR](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/f2a0ebd1-7d8a-4c8b-b4fb-345fa664acd4)
+Doble Rendija con coeficientes reales, los nodos intermedios actúan como rendijas y se tiene la misma restricción de que al final de cada nodo apunta hacía si mismo suponiendo un ciclo con aristas de valor 1. Para generar un sistema doblemente estocástico.
+
+![matriz 1](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/a6e5ba71-ec92-474c-917d-955a5bf14b89)
 
 Matiz con coeficientes reales.
 
 ![Matriz R](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/907e7ef7-652f-43fc-ae20-4b1a8a93c7de)
 
-Para este sistema realizaren la matriza y evaluaremos el comprotamiento del sistema con varios Clicks, la fórmula que usaremos para identificar la probabilidad de estar en cierto punto de sistema será p(xj) = |cj|Exp(2).
+Para este sistema realizaremos la matriz y evaluaremos el comportamiento del sistema con varios Clicks, la fórmula que usaremos para identificar la probabilidad de estar en cierto punto de sistema será p(xj) = |cj|Exp(2).
 
 ![reales](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/0a1dd6b3-115b-4df8-b949-d8728c3ad3be)
 
@@ -41,24 +42,24 @@ Observamos que P(x1) = 0.5 y P(x2)= 0.5.
 
 ![result, reales](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/939c447b-f8b8-4ab9-9a51-4dcb6f46273e)
 
-A continuación se ejecuta el sistema con varios clicks.
+A continuación, se ejecuta el sistema con varios clicks.
 Observamos que P(x3) = 1/6, P(x4)= 1/6, P(x5) = 1/3, P(x6)= 1/3, P(x7) = 1/6.
 
-De acuerdo con los resultados P(xj) observamos que luego de varios clicks en el sistema empieza a existir interferencia, ya que los fotones de luz ya no viajan a dos lados unicamente, sino que se dispersan en varios blancos u objetivos del experimento. Esto se debe a la fisica cuantica y la teoria de los multiversos (como parte de la simulación).
+De acuerdo con los resultados P(xj) observamos que luego de varios clicks en el sistema empieza a existir interferencia, ya que los fotones de luz ya no viajan a dos lados únicamente, sino que se dispersan en varios blancos u objetivos del experimento. Esto se debe a la física cuántica y la teoría de los multiversos (como parte de la simulación).
 
 ![resdutl vvv](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/1eb56549-e93e-4ad2-90fb-12012e3181ea)
 
 ### Coeficientes complejos.
 
-Doble Rendija con coegicientes complejos, es similar al sistema con coeficientes reales, sin embargo los coeficientes complejos nos dan otra perspectiva de la probabilidad del sistema, por tanto usaremos un modelo diferente, el cual mostramos acontinuación.
+Doble Rendija con coeficientes complejos, es similar al sistema con coeficientes reales, sin embargo los coeficientes complejos nos dan otra perspectiva de la probabilidad del sistema, por tanto usaremos un modelo diferente, el cual mostramos a continuación.
 
-![diagrama](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/878a555d-1839-47e0-849c-b1dabf52dedd)
+![matriz 2](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/97271481-769e-4c8c-a675-4ffbb1268e34)
 
 Matiz con coeficientes complejos.
 
 ![matriz](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/7d3d5247-44b5-4248-9c30-83f010ba989f)
 
-Para este sistema realizaren la matriza y evaluaremos el comprotamiento del sistema con varios Clicks, la fórmula que usaremos para identificar la probabilidad de estar en cierto punto de sistema será p(xj) = |Cj|Exp(2)/||y>|Exp(2).
+Para este sistema realizaren la matriz y evaluaremos el comportamiento del sistema con varios Clicks, la fórmula que usaremos para identificar la probabilidad de estar en cierto punto de sistema será p(xj) = |Cj|Exp(2)/||y>|Exp(2).
 
 ![prueba](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/ed92e7d9-f841-4081-a8cb-60bc41b5b7c1)
 
@@ -68,29 +69,29 @@ Observamos que P(x1) = 1/sqr(2) y P(x2)= 1/sqr(2) .
 
 ![resultSistema](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/f8cb1e95-1c0a-46f4-856c-899e3cfbacd9)
 
-A continuación se ejecuta el sistema con varios clicks.
+A continuación, se ejecuta el sistema con varios clicks.
 Observamos que P(x3) = sqr(6)/6, P(x4)= sqr(6)/6, P(x5) = sqr(6)/3, P(x6)= sqr(6)/6, P(x7) = sqr(6)/6.
 
-De acuerdo con los resultados P(xj) observamos que luego de varios clicks en el sistema empieza a existir interferencia, ya que los fotones de luz ya no viajan a dos lados unicamente, sino que se dispersan en varios blancos u objetivos del experimento. Esto se debe a la fisica cuantica y la teoria de los multiversos (como parte de la simulación).
+De acuerdo con los resultados P(xj) observamos que luego de varios clicks en el sistema empieza a existir interferencia, ya que los fotones de luz ya no viajan a dos lados únicamente, sino que se dispersan en varios blancos u objetivos del experimento. Esto se debe a la física cuántica y la teoría de los multiversos (como parte de la simulación).
 
 # ELABORACIÓN
 
 ## Materiales:
 
-1. Un Carton Paja.
+1. Un Cartón Paja.
 2. Una cartulina.
-3. Un laser.
-4. Un bisturi.
-5. Un cuarto de papel vinipel.
+3. Un láser.
+4. Un bisturí.
+5. Un cuarto de papel metálico.
 6. cinta transparente.
-7. una caja para soportar el laser.
+7. una caja para soportar el láser.
    
 ## Procedimiento
 
-1. Cortamos un troso de papel vinipel y lo pegamos con la cinta a un recuadro de cartulina para dar estabilidad.
-2. Cortamos el papel vinipel con el visturi creando la doble rendija.
-3. Pegamos el recuadro de cartulina con el papel vinipel a la caja.
-4. Ubicamos el laser sobre la caja de la manera que apunte a la doble rendija para  reflejar el efecto en el carton paja.
+1. Cortamos un trozo de papel metálico y lo pegamos con la cinta a un recuadro de cartulina para dar estabilidad.
+2. Cortamos el papel metálico con el bisturí creando la doble rendija.
+3. Pegamos el recuadro de cartulina con el papel metálico a la caja.
+4. Ubicamos el láser sobre la caja de la manera que apunte a la doble rendija para reflejar el efecto en el cartón paja.
 
 ## Imagen del experimento montado.
 
@@ -103,12 +104,12 @@ https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/ee1df8
 ## Resultado Final
 ![WhatsApp Image 2023-09-30 at 1 15 14 PM](https://github.com/Richi025/ExperimentoDobleRendija-CNYT/assets/138072260/a65a63f1-f7fc-4c5f-91c0-443f92e6b327)
 
-# Version
+# Versión
 
-## "Primera Version"
+## "Primera Versión"
 
 # Autores
 
 1. Alexandra Cortes Tovar.
 2. Juan Sebastian Vasquez Vega.
-3. Jose Ricardo Vasquez Vega.
+3. Jose Ricardo Vasquez V
